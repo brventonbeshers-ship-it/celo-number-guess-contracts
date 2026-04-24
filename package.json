@@ -1,0 +1,25 @@
+{
+  "name": "celo-number-guess-contracts",
+  "version": "1.0.0",
+  "description": "Number Guess dApp on Celo blockchain",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js --network celo"
+  },
+  "keywords": [
+    "celo",
+    "solidity",
+    "smart-contracts",
+    "number-guess",
+    "blockchain",
+    "web3",
+    "game"
+  ],
+  "author": "brventonbeshers-ship-it",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
